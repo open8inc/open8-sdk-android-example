@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //Substitute this with your own app key. The app key provided here is for testing purpose only.
-        O8Agent.getInstance().init(getApplicationContext(), "43c281c72139a3f5c0a1ef980ffaa6cc5e2a1e07");
+        //Substitute this with your own app key.
+        O8Agent.getInstance().init(getApplicationContext(), "your app key here");
         setContentView(R.layout.activity_main);
 
         mPager = (ViewPager) findViewById(R.id.pager);
