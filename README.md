@@ -13,9 +13,9 @@ allprojects {
 }
 
 dependencies {
-    compile 'com.open8.sdklib:open8-sdk:0.1.0'
+    compile 'com.open8.sdklib:open8-sdk:0.1.1'
 }
 ```
 ## Requirements
 
-- Android API Version 15 and up.
+- Android API Version 16 and up.
