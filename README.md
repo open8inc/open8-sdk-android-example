@@ -13,7 +13,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'com.open8.sdklib:open8-sdk:0.1.1'
+    compile 'com.open8.sdklib:open8-sdk:0.1.2'
 }
 ```
 ## Requirements
