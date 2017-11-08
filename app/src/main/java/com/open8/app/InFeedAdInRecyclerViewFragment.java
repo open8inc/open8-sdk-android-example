@@ -63,10 +63,5 @@ public class InFeedAdInRecyclerViewFragment extends Fragment {
         broadcaster.onActivityResumed();
     }
 
-    @Override
-    public void onStop() {
-        super.onStop();
-    }
-
 }
 
